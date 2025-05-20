@@ -19,7 +19,7 @@ def calculadora():
                 return calculadora()
             resultado = num1 / num2
 
-        print("O resultado da operação é: ", resultado)
+        print(f" Resultado: {num1} {operacao} {num2} = {resultado}\n")
     
     except ValueError:
         print("Erro: Entrada inválida. Por favor, insira números válidos.\n")
